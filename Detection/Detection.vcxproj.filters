@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Algorithm">
+      <UniqueIdentifier>{c49e518f-b22f-401d-824d-0c4cc4ab7007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Control">
+      <UniqueIdentifier>{7c2990c1-6808-46ed-b648-271816f95c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialog">
+      <UniqueIdentifier>{c0077060-36b7-4bce-9550-90ed99758341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manage">
+      <UniqueIdentifier>{8605705e-a964-4b97-ae03-a3c33742ffa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{e3b15c0e-6aad-4f78-ab66-74287dac9ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithm">
+      <UniqueIdentifier>{6463148b-1500-4953-8000-0e36e7c273c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Control">
+      <UniqueIdentifier>{36b8a3c9-89f5-45b1-9807-46b7630d0c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialog">
+      <UniqueIdentifier>{2ce7bca8-88df-4ce9-bc9e-86846a07709d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manage">
+      <UniqueIdentifier>{2f5c89de-0995-4335-818c-598a702c5122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{0e9aa237-527f-48a8-9706-848eab2e0b35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Resource.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Dialog\DownloadDlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Dialog\MainDlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Dialog\SettingDlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Algorithm\RayAxis.h">
+      <Filter>Header Files\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Manage\Types.h">
+      <Filter>Header Files\Manage</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Algorithm\RayAxis.cpp">
+      <Filter>Source Files\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\QLabelEx.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\MainDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\SettingDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DownloadDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Manage\Json.cpp">
+      <Filter>Source Files\Manage</Filter>
+    </ClCompile>
+    <ClCompile Include="Manage\Types.cpp">
+      <Filter>Source Files\Manage</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Downloader.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Detection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Control\QLabelEx.h">
+      <Filter>Header Files\Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Dialog\SettingDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </QtMoc>
+    <QtMoc Include="Dialog\MainDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </QtMoc>
+    <QtMoc Include="Dialog\DownloadDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </QtMoc>
+    <QtMoc Include="Manage\Json.h">
+      <Filter>Header Files\Manage</Filter>
+    </QtMoc>
+    <QtMoc Include="Network\Downloader.h">
+      <Filter>Header Files\Network</Filter>
+    </QtMoc>
+    <QtMoc Include="Detection.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
